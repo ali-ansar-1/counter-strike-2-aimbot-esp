@@ -1,0 +1,18 @@
+# Project-specific overrides
+# Default behavior
+# See https://github.com/github/linguist
+public/*.html linguist-vendored
+
+node_modules/* linguist-vendored
+
+*.woff2 binary
+
+src/**/*.tsx linguist-detectable
+*.html linguist-vendored
+Cargo.lock linguist-generated
+build/* linguist-vendored
+
+dist/* linguist-vendored
+* text=auto
+
+*.md linguist-documentation
